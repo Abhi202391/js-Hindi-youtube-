@@ -11,6 +11,7 @@ console.log("Hitesh")
 let name = "hitesh"
 let age = 18
 let isLoggedIn = false
+let state;
 
 // DataTypes are 
 // number => 2 to power 53 for positive number 
@@ -18,4 +19,17 @@ let isLoggedIn = false
 // string => "" or ''
 // boolean 
 // null: it is dataType as well as standalone vlue too that is null is a type here  
-// undefined 
+// undefined => of which value is not assingned 
+// symbols => used to identify uniqeness of components 
+
+
+// object 
+
+console.log(typeof "Hitesh");
+console.log(typeof age);
+console.log(typeof null); // considered as language error( sometimes asked in interview)
+console.log(typeof undefined);
+
+
+
+
